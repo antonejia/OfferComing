@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SmartFoxProjectConfig">
+    <option name="inspectionProfileModifiedSet">
+      <set>
+        <option value="AliAccessStaticViaInstance" />
+        <option value="AliAccessToNonThreadSafeStaticFieldFromInstance" />
+        <option value="AliArrayNamingShouldHaveBracket" />
+        <option value="AliControlFlowStatementWithoutBraces" />
+        <option value="AliDeprecation" />
+        <option value="AliEqualsAvoidNull" />
+        <option value="AliLongLiteralsEndingWithLowercaseL" />
+        <option value="AliMissingOverrideAnnotation" />
+        <option value="AliWrapperTypeEquality" />
+        <option value="MapOrSetKeyShouldOverrideHashCodeEquals" />
+      </set>
+    </option>
+  </component>
+</project>
