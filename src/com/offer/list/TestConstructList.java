@@ -4,7 +4,8 @@
  */
 package com.offer.list;
 
-import com.sun.tools.javac.util.List;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author antone
@@ -12,7 +13,9 @@ import com.sun.tools.javac.util.List;
 public class TestConstructList {
 
     public static void main(String[] args) {
-        List<String> list = List.of("a", "b", "c");
+        List<String> list = Arrays.asList("a", "b", "c");
+
+        // error, 不能添加， Arrays.asList 构造的list是immutable的
         list.add("d");
 
         System.out.println(list);
